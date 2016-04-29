@@ -5,16 +5,17 @@
 		</a>
 	</div>
 	<div class="col-md-6 text-right">
-					<p>{% if not login_session['username'] %}
-						
-
-						<a href="{{url_for('showLogin')}}">Log in here</a>
-						
-						{% else %}
+					<p>{% if login_session['email'] %}
 						
 						<a href="{{url_for('gdisconnect')}}">Log out here</a>
 
+                                                {% else %}
+
+						<a href="{{url_for('showLogin')}}">Log in here</a>
+						
 						{% endif %}
+						
+					
 
 					</p>
 		
