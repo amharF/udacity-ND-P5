@@ -4,13 +4,13 @@ Configuring Linux Server + Deployment of udacity-ND-P3 'supermarket catalog app'
 
 i. The IP address and SSH port so your server can be accessed by the reviewer:
 
-IP address: 52.34.173.23
+IP address: 52.35.88.59
 SSH port: 2200
-SSH as new user: $ ssh grader@52.34.173.23 -p2200 -i ~/.ssh/udacity_key.rsa
+SSH as new user: $ ssh grader@52.35.88.59 -p2200 -i ~/.ssh/udacity_key.rsa
 
 ii. The complete URL to your hosted web application:
 
-http://ec2-52-34-173-23.us-west-2.compute.amazonaws.com
+http://ec2-52-35-88-59.us-west-2.compute.amazonaws.com
 
 iii. A summary of software you installed and configuration changes made.
 
